@@ -88,29 +88,6 @@
 
 ---
 
-## 📁 Project Structure
-
-\`\`\`bash
-📁 yoga-studio/
-├── index.html           # Landing page
-├── classes.html         # Yoga class schedule
-├── contacts.html        # Contact & form page
-├── thanks.html          # Confirmation page after form submission
-├── siteplan.html        # Project planning and documentation
-├── js/
-│   └── main.js          # ES module JavaScript logic
-├── css/
-│   └── styles.css       # Custom responsive styles
-├── data/
-│   └── classes.json     # JSON data source for yoga classes
-├── assets/
-│   └── images/          # Optimized images with lazy loading
-└── README.md
-
-\`\`\`
-
----
-
 ## 🧪 Future Improvements
 
 - Backend integration for real booking submissions.
