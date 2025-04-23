@@ -1,11 +1,7 @@
 
 # 🧘‍♀️ Yoga Time Studio
 
-**Yoga Time Studio** is a fully responsive, accessible website for a yoga studio, developed to demonstrate strong design principles and front-end development best practices. The site includes dynamic content loading, form interaction, and smooth, user-friendly navigation—built with clean, well-structured HTML, CSS, and JavaScript using ES modules.
-
-## 🌐 Live Preview
-
-> [View the live site](#) (Add your deployed link here)
+**Yoga Time Studio** is a fully responsive, accessible website for a yoga studio. It was developed to demonstrate strong design principles and front-end development best practices. The site includes dynamic content loading, form interaction, and smooth, user-friendly navigation—built with clean, well-structured HTML, CSS, and JavaScript using ES modules.
 
 ---
 
@@ -14,7 +10,7 @@
 - **Home**: A landing page with intro content and scroll navigation to the booking form.
 - **Classes**: Dynamically generated list of yoga classes using JSON.
 - **Contact**: Contact info and details about the studio.
-- **Thank You Page**: Confirmation after form submission (does not count toward 3-page minimum).
+- **Thank You Page**: Confirmation after form submission.
 
 ---
 
@@ -71,7 +67,7 @@
 ## 📦 Performance
 
 - Each page is optimized to stay under 500kB total data transfer from an empty cache.
-- Lightweight CSS and JavaScript bundled efficiently.
+- Lightweight CSS and JavaScript are bundled efficiently.
 - Lazy loading boosts performance on slower networks.
 
 ---
@@ -95,23 +91,22 @@
 ## 📁 Project Structure
 
 \`\`\`bash
-Yoga-Time-Studio/
-│
-├── index.html
-├── classes.html
-├── contact.html
-├── thankyou.html
-├── css/
-│   └── style.css
+📁 yoga-studio/
+├── index.html           # Landing page
+├── classes.html         # Yoga class schedule
+├── contacts.html        # Contact & form page
+├── thanks.html          # Confirmation page after form submission
+├── siteplan.html        # Project planning and documentation
 ├── js/
-│   ├── main.js
-│   ├── form.js
-│   └── dataLoader.js
+│   └── main.js          # ES module JavaScript logic
+├── css/
+│   └── styles.css       # Custom responsive styles
 ├── data/
-│   └── classes.json
-├── images/
-│   └── optimized-yoga-images.jpg
+│   └── classes.json     # JSON data source for yoga classes
+├── assets/
+│   └── images/          # Optimized images with lazy loading
 └── README.md
+
 \`\`\`
 
 ---
